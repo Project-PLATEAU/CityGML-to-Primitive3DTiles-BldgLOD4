@@ -11,7 +11,7 @@
 
 
 ## 3. 利用手順
-本システムの構築手順及び利用手順については[利用チュートリアル]( https://github.com/Project-PLATEAU/CityGML-to-Primitive3DTiles-BldgLOD4/blob/gh-pages/manual/toc.html )を参照してください。
+本システムの構築手順及び利用手順については[利用チュートリアル]( https://r5-plateau-acn.github.io/CityGML-to-Primitive3DTiles-BldgLOD4/index.html )を参照してください。
 - 本レポジトリの一式をダウンロードし、任意のディレクトリに置きます。
 - FME Formで本ファイルを開いて実行します。
 - 変換元の建築物モデルLOD4(CityGML)を読み込みます。
