@@ -18,7 +18,7 @@
 - FME Formを[こちら](https://fme.safe.com/downloads/#official)からインストールします。
 - 本リポジトリの一式をダウンロードし、任意のディレクトリに置きます。
 - FME Formで「CityGML-to-Primitive3DTiles-BldgLOD4.fmw」を開いて実行します。
-- User Parametersを整理した上、”Run” を実行して3DTilesデータを出力します。
+- ”Run” を実行して3DTilesデータを出力します。
 - 出力された3DTilesデータの「data」フォルダ及び「tileset.json」を最終整理します。
 
 詳細な手順は、技術検証レポート( https://xxxx )を参照してください。
