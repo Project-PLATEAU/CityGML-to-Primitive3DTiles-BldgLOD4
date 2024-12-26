@@ -1,0 +1,17 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "title": "CityGML建築物モデルLOD4からプリミティブ統合を伴う3DTilesへのコンバーター",
+    "keywords": "CityGML建築物モデルLOD4からプリミティブ統合を伴う3DTilesへのコンバーター Project PLATEAUの令和６年度のユースケースの一部であるuc24-06「都市再生安全確保計画等の策定支援のための避難シミュレータの社会実装モデルの開発」において作成・利用した「CityGML-to-Primitive3DTiles-BldgLOD4」のデータ変換テンプレートで、 建築物モデルLOD4(CityGML)からプリミティブ統合を伴う3DTilesへの変換を行うテンプレートです。 本ユースケースにおいて、Unreal Engine上で避難シミュレーションを実行するにあたり、通常の3D都市モデル(3DTiles)を実装する場合、その属性やマテリアルが多数存在することからプリミティブが複雑になりバウンディングボリューム（一般的に衝突検出アルゴリズムにおいて可視化モデルの計算範囲を制限するための幾何学形状）の重なりが性能を悪化させることになります。 本変換テンプレートでは、そのプリミティブを統合し3DTiles変換を行うことでシミュレーションがよりスムーズに実行されます。"
+  },
+  "manual/devMan.html": {
+    "href": "manual/devMan.html",
+    "title": "環境構築手順書",
+    "keywords": "環境構築手順書 1 本書について 本書では、CityGML建築物モデルLOD4からプリミティブ統合を伴う3DTilesへのコンバーター（以下「本システム」という。）の利用環境構築手順について記載しています。本システムの構成や仕様の詳細については以下も参考にしてください。 技術検証レポート 2 動作環境 本システムの動作環境は以下のとおりです。 項目 推奨動作環境 OS Microsoft Windows 10 CPU 13th Gen Intel(R) Core(TM) i9-13900K 3.00 GHz以上 メモリ 64GB以上 GPU NVIDIA RTX A4500以上 ストレージ 1TB SSD以上 FME Form 2023.2.3 3 利用手順 FME Formをこちらからインストールします。 ※インストールに関する詳しい手順はFMEサポートにアクセス・お問い合わせをお願いします。 本リポジトリの一式をダウンロードし、任意のディレクトリに置きます。 FME Formの「Open」からダウンロードした「CityGML-to-Primitive3DTiles-BldgLOD4.fmw」を起動します。"
+  },
+  "manual/userMan.html": {
+    "href": "manual/userMan.html",
+    "title": "操作マニュアル",
+    "keywords": "操作マニュアル 1 本書について 本書では、CityGML建築物モデルLOD4からプリミティブ統合を伴う3DTilesへのコンバーター（以下「本システム」という。）の利用環境構築手順について記載しています。 2 プリミティブ統合を伴う3DTilesへの変換手順 2-1 3DTilesへの変換 ・「User Parameters」を右クリックし、「Edit User Paramter Default Values…」を選択します。 ・「建築モデルデータ」にCityGMLデータを選択し、「変換結果出力先フォルダ」と「3DTilesタイルセット名」を設定します。 ・「建築モデルデータ」、「変換結果出力先フォルダ」と「3DTilesタイルセット名」の設定が終わったら「Save as Defaults」をクリックします。 ・「Run」をクリックし、CityGMLを3DTilesに変換する作業は完了となります。 ・実行後、「Translation was SUCCESSFUL」とでれば出力成功です。 2-2 出力データの後処理 ・3DTilesフォルダの「data」を開きます。 ・「data1.b3dm」を削除します。 ・「tileset.json」をテキストエディタで開きます。 ・Unreal Engineに実装した際に移動可能領域の再生成が起こってしまうため、チルドレン要素を削除し親要素のみのデータにする必要があるため、図のように「REPLACE」を削除し「ADD」を入力します。 ・下の図のように「data1.b3dm」を「data0.b3dm」にします。 ・下の図のように、チルドレン要素を削除します。 ・「上書き保存」をクリックし、テキストエディタを閉じます。"
+  }
+}
