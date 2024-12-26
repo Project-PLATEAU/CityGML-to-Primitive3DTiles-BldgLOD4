@@ -1,5 +1,5 @@
 # CityGML建築物モデルLOD4からプリミティブ統合を伴う3DTilesへの変換を行うコンバーター
-![CityGML-to-Primitive3DTiles-BldgLOD4](https://github.com/user-attachments/assets/5910d143-485d-424e-bdbd-c9da9a141eb8)
+![概要](./img/tutorial_000001.png) <!-- OSSの対象物のスクリーンショット（画面表示がない場合にはイメージ画像）を貼り付けください -->
 
 ## 1. 概要
 本リポジトリでは、Project PLATEAUの令和６年度のユースケースの一部であるuc24-06「都市再生安全確保計画等の策定支援のための避難シミュレータの社会実装モデルの開発」において作成・利用した「CityGML-to-Primitive3DTiles-BldgLOD4」のデータ変換テンプレートを公開しています。  
@@ -46,8 +46,9 @@
 ## 7. 本リポジトリのフォルダ構成 <!-- 本GitHub上のソースファイルの構成を記載ください。 -->
 | フォルダ名 |　詳細 |
 |-|-|
-| CityGML-to-Primitive3DTiles-BldgLOD4 | 起動用のデータ |
-| resources | ワークベンチのリソースデータ |
+| /sample(CityGML)/ | ワークベンチを試行するためのサンプルデータ |
+| /src/CityGML-to-Primitive3DTiles-BldgLOD4.fmw | 起動用のデータ |
+| /src/resources | ワークベンチのリソースデータ |
 
 ## 8. ライセンス
 
@@ -63,3 +64,4 @@
 ## 10. 参考資料 
 - 技術検証レポート: https://xxxx
 - PLATEAU WebサイトのUse caseページ「都市再生安全確保計画等の策定支援のための避難シミュレータの社会実装モデルの開発」: https://xxxx
+
