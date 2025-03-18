@@ -10,7 +10,7 @@
 ## 2. 「都市再生安全確保計画等の策定支援のための避難シミュレータの社会実装モデルの開発」について
 「都市再生安全確保計画等の策定支援のための避難シミュレータの社会実装モデルの開発」では、3D都市モデルとエリア防災計画に基づく人流データ等を用いて、避難者の人流をシミュレーションするシステムを開発し、本システムの避難シミュレーションを実施・検証することで、実効性のある防災計画・防災マニュアル等の策定を支援します｡  
 そのなかで避難シミュレータ(Unreal Engine)に実装するためのプリミティブ統合を伴う3DTilesへの変換テンプレートを利用します。  
-本ユースケースの詳細については技術検証レポート( https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0101_ver01.pdf )を参照してください。
+本ユースケースの詳細については[技術検証レポート]( https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0101_ver01.pdf )を参照してください。
 
 
 ## 3. 利用手順
@@ -21,7 +21,7 @@
 - ”Run” を実行して3DTilesデータを出力します。
 - 出力された3DTilesデータの「data」フォルダ及び「tileset.json」を最終整理します。
 
-詳細な手順は、技術検証レポート( https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0101_ver01.pdf )を参照してください。
+詳細な手順は、[技術検証レポート]( https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0101_ver01.pdf )を参照してください。
 
 ## 4. システム概要 <!-- OSS化対象のシステムが有する機能を記載ください。 -->
 ### 【3DTiles変換】
@@ -62,6 +62,6 @@
 - 本リポジトリの利用により生じた損失及び損害等について、国土交通省はいかなる責任も負わないものとします。
 
 ## 10. 参考資料 
-- 技術検証レポート: https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0101_ver01.pdf
+- [技術検証レポート]( https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0101_ver01.pdf)
 - PLATEAU WebサイトのUse caseページ「都市再生安全確保計画等の策定支援のための避難シミュレータの社会実装モデルの開発」: https://xxxx
 
